@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Firebase specific
+.firebase/
+firebase-debug.log
+
+# Environment variables (SECURITY CRITICAL)
+.env
+.DS_Store
+
+# IDE specific
+.vscode/
+.idea/
