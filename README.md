@@ -52,3 +52,26 @@ Assumption: Users have a stable internet connection for real-time inference.
 Constraint: The project must be built using the Firebase "Spark" (Free) tier.
 
 Constraint: The AI model is strictly for educational purposes and not financial advice.
+
+## Branching Strategy
+
+This project follows the **GitHub Flow** workflow to ensure code stability and organized collaboration. The `main` branch is always deployable, and all development happens in isolated feature branches.
+
+### The Workflow Rules
+1.  **Main Branch (`main`)**
+    * This is the "Source of Truth" for the project.
+    * It contains only production-ready, tested code.
+    * Direct commits to `main` are restricted; code enters only via Pull Requests (PRs).
+
+2.  **Feature Branches**
+    * Created from `main` for every new task, feature, or bug fix.
+    * **Naming Convention:** `category/description-in-kebab-case`
+    * **Examples:**
+        * `feature/auth-setup` (For setting up Login/Signup)
+        * `feature/dashboard-ui` (For frontend layout work)
+        * `fix/api-timeout` (For fixing a specific bug)
+        * `docs/architecture-diagram` (For updating documentation)
+
+3.  **Pull Requests (PRs)**
+    * When a feature is complete, a Pull Request is opened to merge the feature branch back into `main`.
+    * This allows for code review and automated testing before the code is integrated.
