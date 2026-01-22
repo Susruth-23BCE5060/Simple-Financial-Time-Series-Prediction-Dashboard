@@ -75,3 +75,24 @@ This project follows the **GitHub Flow** workflow to ensure code stability and o
 3.  **Pull Requests (PRs)**
     * When a feature is complete, a Pull Request is opened to merge the feature branch back into `main`.
     * This allows for code review and automated testing before the code is integrated.
+
+## 🐳 Quick Start – Local Development (Docker)
+
+You can run this project locally using Docker without installing Node.js or Firebase tools on your machine.
+
+### Prerequisites
+* [Docker Desktop](https://www.docker.com/products/docker-desktop) installed and running.
+
+### Instructions
+1.  **Build the Image:**
+    ```bash
+    docker build -t financial-dashboard .
+    ```
+
+2.  **Run the Container:**
+    ```bash
+    docker run -p 8080:8080 financial-dashboard
+    ```
+
+3.  **View the App:**
+    Open your browser and visit: `http://localhost:8080`
