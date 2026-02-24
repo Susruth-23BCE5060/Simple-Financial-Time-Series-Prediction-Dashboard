@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15" version="29.3.8">
+  <diagram name="Page-1" id="N0gNkTo-D4NSI81wimez">
+    <mxGraphModel dx="1796" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Presentation Layer (Client)" vertex="1">
+          <mxGeometry height="210" width="600" x="310" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-2" parent="omwQ70BoC_xJCaD_ZaNA-1" style="shape=mxgraph.basic.browser;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Web Browser" vertex="1">
+          <mxGeometry height="60" width="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-3" parent="omwQ70BoC_xJCaD_ZaNA-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="React UI Components" vertex="1">
+          <mxGeometry height="60" width="600" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-4" parent="omwQ70BoC_xJCaD_ZaNA-1" style="shape=mxgraph.basic.chart;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Chart Visualization" vertex="1">
+          <mxGeometry height="60" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Serverless Backend Layer" vertex="1">
+          <mxGeometry height="210" width="600" x="80" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-6" parent="omwQ70BoC_xJCaD_ZaNA-5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Authentication Service" vertex="1">
+          <mxGeometry height="60" width="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-7" parent="omwQ70BoC_xJCaD_ZaNA-5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Dashboard Controller" vertex="1">
+          <mxGeometry height="60" width="600" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-8" parent="omwQ70BoC_xJCaD_ZaNA-5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Caching Manager" vertex="1">
+          <mxGeometry height="60" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Data &amp; External Services Layer" vertex="1">
+          <mxGeometry height="210" width="600" x="310" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-10" parent="omwQ70BoC_xJCaD_ZaNA-9" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Firestore Cache" vertex="1">
+          <mxGeometry height="60" width="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-11" parent="omwQ70BoC_xJCaD_ZaNA-9" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Yahoo Finance API" vertex="1">
+          <mxGeometry height="60" width="600" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-12" parent="omwQ70BoC_xJCaD_ZaNA-9" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Hugging Face API" vertex="1">
+          <mxGeometry height="60" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-13" edge="1" parent="1" source="omwQ70BoC_xJCaD_ZaNA-3" style="endArrow=classic;html=1;rounded=0;" target="omwQ70BoC_xJCaD_ZaNA-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="310" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-14" edge="1" parent="1" source="omwQ70BoC_xJCaD_ZaNA-3" style="endArrow=classic;html=1;rounded=0;" target="omwQ70BoC_xJCaD_ZaNA-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="310" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-15" edge="1" parent="1" source="omwQ70BoC_xJCaD_ZaNA-7" style="endArrow=classic;html=1;rounded=0;" target="omwQ70BoC_xJCaD_ZaNA-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="530" as="sourcePoint" />
+            <mxPoint x="740" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-16" edge="1" parent="1" source="omwQ70BoC_xJCaD_ZaNA-7" style="endArrow=classic;html=1;rounded=0;" target="omwQ70BoC_xJCaD_ZaNA-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="530" as="sourcePoint" />
+            <mxPoint x="590" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-17" edge="1" parent="1" source="omwQ70BoC_xJCaD_ZaNA-7" style="endArrow=classic;html=1;rounded=0;" target="omwQ70BoC_xJCaD_ZaNA-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="530" as="sourcePoint" />
+            <mxPoint x="590" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-18" edge="1" parent="1" source="omwQ70BoC_xJCaD_ZaNA-8" style="endArrow=classic;html=1;rounded=0;" target="omwQ70BoC_xJCaD_ZaNA-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="530" as="sourcePoint" />
+            <mxPoint x="410" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omwQ70BoC_xJCaD_ZaNA-19" edge="1" parent="1" source="omwQ70BoC_xJCaD_ZaNA-7" style="endArrow=classic;html=1;rounded=0;" target="omwQ70BoC_xJCaD_ZaNA-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="370" />
+            </Array>
+            <mxPoint x="590" y="430" as="sourcePoint" />
+            <mxPoint x="770" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
