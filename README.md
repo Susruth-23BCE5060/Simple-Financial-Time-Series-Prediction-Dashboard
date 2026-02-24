@@ -73,8 +73,8 @@ To ensure the Financial Prediction Dashboard is highly maintainable and scalable
 *The UI wireframe screenshots are available in our repository under the `/docs/wireframes/` directory.*
 
 **Dashboard Wireframes:**
-![Wireframe 1](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.28 AM.png>)
-![Wireframe 2](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.35 AM.png>)
+![Wireframe 1](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.28 AM.png>)
+![Wireframe 2](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.35 AM.png>)
 ![Wireframe 3](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.44 AM.png>)
 ![Wireframe 4](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.54 AM.png>)
 ![Wireframe 5](<./docs/wireframes/Screenshot 2026-01-22 at 12.21.01 AM.png>)
