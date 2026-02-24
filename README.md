@@ -75,11 +75,11 @@ To ensure the Financial Prediction Dashboard is highly maintainable and scalable
 **Dashboard Wireframes:**
 ![Wireframe 1](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.28 AM.png>)
 ![Wireframe 2](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.35 AM.png>)
-![Wireframe 3](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.44 AM.png>)
-![Wireframe 4](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.54 AM.png>)
-![Wireframe 5](<./docs/wireframes/Screenshot 2026-01-22 at 12.21.01 AM.png>)
-![Wireframe 6](<./docs/wireframes/Screenshot 2026-01-22 at 12.21.07 AM.png>)
-![Wireframe 7](<./docs/wireframes/Screenshot 2026-01-22 at 12.21.18 AM.png>)
+![Wireframe 3](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.44 AM.png>)
+![Wireframe 4](<./docs/wireframes/Screenshot 2026-01-22 at 12.20.54 AM.png>)
+![Wireframe 5](<./docs/wireframes/Screenshot 2026-01-22 at 12.21.01 AM.png>)
+![Wireframe 6](<./docs/wireframes/Screenshot 2026-01-22 at 12.21.07 AM.png>)
+![Wireframe 7](<./docs/wireframes/Screenshot 2026-01-22 at 12.21.18 AM.png>)
 
 **UI Design Explanation:** These screens demonstrate our focus on a clean, accessible, and user-friendly experience. Key design features include:
 * **Consistent Styling:** Primary actions (like the "Predict" button) use a unified color scheme and clear typography.
