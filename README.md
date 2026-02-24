@@ -57,6 +57,35 @@ Constraint: The AI model is strictly for educational purposes and not financial 
 
 This project follows the **GitHub Flow** workflow to ensure code stability and organized collaboration. The `main` branch is always deployable, and all development happens in isolated feature branches.
 
+## 📐 Software Design
+
+### Main Design Choices
+To ensure the Financial Prediction Dashboard is highly maintainable and scalable, we adopted a **Layered Client-Server Architecture** utilizing a serverless backend. We prioritized **low coupling** by strictly separating the React presentation components from the external API logic (Yahoo Finance & Hugging Face). Additionally, we achieved **high cohesion** by encapsulating all authentication and database caching tasks into their own dedicated, single-purpose service modules.
+
+### High-Level Architecture
+*The image below is available in our repository at `/docs/architecture-diagram.drawio.png`.*
+
+![High-Level Architecture](./docs/architecture-diagram.drawio.png)
+
+**Diagram Explanation:** This diagram illustrates the clear separation of concerns in our system. The top layer represents our React UI, which only handles display logic. It sends requests to our Middle Layer (the Firebase/Controller logic), which acts as a secure middleman. This controller first checks our Database Cache for existing data, and if none is found, it securely fetches fresh data from the Bottom Layer (Yahoo Finance API) and passes it to the AI Engine (Hugging Face) for predictions. 
+
+### User Interface Design
+*The UI wireframe screenshots are available in our repository under the `/docs/wireframes/` directory.*
+
+**Dashboard Wireframes:**
+![Wireframe 1](./docs/wireframes/Screenshot%202026-01-22%20at%2012.20.28%20AM.png)
+![Wireframe 2](./docs/wireframes/Screenshot%202026-01-22%20at%2012.20.35%20AM.png)
+![Wireframe 3](./docs/wireframes/Screenshot%202026-01-22%20at%2012.20.44%20AM.png)
+![Wireframe 4](./docs/wireframes/Screenshot%202026-01-22%20at%2012.20.54%20AM.png)
+![Wireframe 5](./docs/wireframes/Screenshot%202026-01-22%20at%2012.21.01%20AM.png)
+![Wireframe 6](./docs/wireframes/Screenshot%202026-01-22%20at%2012.21.07%20AM.png)
+![Wireframe 7](./docs/wireframes/Screenshot%202026-01-22%20at%2012.21.18%20AM.png)
+
+**UI Design Explanation:** These screens demonstrate our focus on a clean, accessible, and user-friendly experience. Key design features include:
+* **Consistent Styling:** Primary actions (like the "Predict" button) use a unified color scheme and clear typography.
+* **System Feedback:** Loading states and error messages are clearly visualized so the user is aware when the AI is processing heavy data.
+* **Mobile-Friendly Layout:** The dashboard utilizes responsive grid systems so the charts and navigation menus remain readable on smaller mobile screens.
+
 ### The Workflow Rules
 1.  **Main Branch (`main`)**
     * This is the "Source of Truth" for the project.
@@ -75,6 +104,7 @@ This project follows the **GitHub Flow** workflow to ensure code stability and o
 3.  **Pull Requests (PRs)**
     * When a feature is complete, a Pull Request is opened to merge the feature branch back into `main`.
     * This allows for code review and automated testing before the code is integrated.
+    * 
 
 ## 🐳 Quick Start – Local Development (Docker)
 
@@ -96,3 +126,4 @@ You can run this project locally using Docker without installing Node.js or Fire
 
 3.  **View the App:**
     Open your browser and visit: `http://localhost:8080`
+    
